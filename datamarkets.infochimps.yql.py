@@ -27,14 +27,21 @@ apikey = "api_test-W1cipwpcdu9Cbd9pmm8D4Cjc469"
 # http://python-yql.org/code.html
 #
 influencequery = "select * from infochimps.influence where screen_name='" + screenname + "' and apikey='" + apikey + "'"
-print influencequery
+
 print "-----"
-print "Retrieved the following influence metrics for Twitter screen name: ", user
+print "Retrieving influence metrics for Twitter screen name: ", screenname
 print "-----"
 
-# Print out the metrics
+# For some reason, YQL is currently returning:
+# "No definition found for Table infochimps.influence"
+# when we execute the YQL call below even though the exact 
+# same YQL statement executes correctly in the YQL console
+# via this call:
+# http://yhoo.it/gYZ17r
+#
+# I am investigating and will update this example program as needed.
+# 
 metrics = y.execute(influencequery)
-# print metrics
 
 # Now that we have the data in our Python program, we can add code to
-# do whatever else with it we want.  Enjoy!
+# do whatever else we want with the metrics.  Enjoy!
