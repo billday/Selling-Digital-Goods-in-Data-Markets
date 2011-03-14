@@ -1,5 +1,5 @@
 # This Python program accesses the Infochimps Twitter Influence Metrics for
-# the specified user_name via a Yahoo! Query Language call.
+# the specified Twitter screen name via a Yahoo! Query Language call.
 #
 # Copyright (c) 2011, Bill Day; for more information see http://billday.com
 
@@ -13,10 +13,10 @@ import yql
 #
 y = yql.Public()
 
-# Specify the user_name for which we wish to retrieve influence metrics
+# Specify Twitter screen name for which we wish to retrieve influence metrics
 # and the Infochimps apikey to use.
 #
-user = "billday"
+screenname = "billday"
 apikey = "api_test-W1cipwpcdu9Cbd9pmm8D4Cjc469"
 
 # Fetch the influence metrics.  Results are returned as a
@@ -26,14 +26,15 @@ apikey = "api_test-W1cipwpcdu9Cbd9pmm8D4Cjc469"
 # For more information see:
 # http://python-yql.org/code.html
 #
-influencequery = "select * from infochimps.influence where screen_name='billday' and apikey='api_test-W1cipwpcdu9Cbd9pmm8D4Cjc469'"
-metrics = y.execute(influencequery)
+influencequery = "select * from infochimps.influence where screen_name='" + screenname + "' and apikey='" + apikey + "'"
+print influencequery
 print "-----"
-print "Retrieved the following influence metrics for Twitter user: ", user
+print "Retrieved the following influence metrics for Twitter screen name: ", user
 print "-----"
 
 # Print out the metrics
-print metrics
+metrics = y.execute(influencequery)
+# print metrics
 
-#for row in metrics.rows:
-#    print row
+# Now that we have the data in our Python program, we can add code to
+# do whatever else with it we want.  Enjoy!
