@@ -26,7 +26,7 @@ apikey = "api_test-W1cipwpcdu9Cbd9pmm8D4Cjc469"
 # For more information see:
 # http://python-yql.org/code.html
 #
-influencequery = "select * from infochimps.influence where screen_name='" + screenname + "' and apikey='" + apikey + "'"
+influencequery = "select * from infochimps.influence where screen_name='" + screenname + "' and apikey='" + apikey + "';"
 
 print "-----"
 print "Retrieving influence metrics for Twitter screen name: ", screenname
