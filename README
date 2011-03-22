@@ -5,9 +5,13 @@ For more information, please refer to the articles.  The first installment, intr
 some of the major innovators, is available at:
 http://bit.ly/eLy8Ob
 
-The next installment discussing how to find an appropriate dataset and access data in it, especially 
-focusing upon Infochimps Twitter influence metrics API access and YQL, will publish soon.  I will update
-this README to link to it once it is available.
+The second article discussing how to find an appropriate dataset and access data in it, especially 
+focusing upon Infochimps' Twitter influence metrics API and accessing it using YQL, is at:
+https://bit.ly/esITZ5
+
+See also http://bit.ly/hxarz2 and http://bit.ly/gVAQGe for more on the influence metrics and YQL.
+
+I will update this README to link to the remaining articles as they are published.
 
 All source code is licensed under the Simplified BSD License:
 http://www.opensource.org/licenses/bsd-license.php
