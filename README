@@ -1,6 +1,5 @@
-The Python scripts in this project can be used to access and manipulate data from data markets described
-in the PayPal X.com DevZone "Selling Digital Goods in Data Markets" article series.  This project also
-includes some sample data in the 'data' directory; this is described in the third article (see below).
+The Python script in this project can be used to access Twitter influence metrics from the Infochimps
+data market described in the PayPal X.com DevZone "Selling Digital Goods in Data Markets" article series.
 
 For more information, please refer to the articles.  The first installment, introducing data markets and
 some of the major innovators, is available at:
