@@ -1,11 +1,11 @@
 The Python script in this project can be used to access Twitter influence metrics from the Infochimps
 data market described in the PayPal X.com DevZone "Selling Digital Goods in Data Markets" article series.
 
-This four part article series introduces data markets and their features, shows you how to select a market
-and begin extracting data from it, explores how premium dataset purchases work in commercial markets, and
-then discusses the steps required to build a commercial data market with micropayments for subsections 
-of a given dataset and a general-purpose data market REST API.  Examples included in the articles use 
-REST+JSON, Python, YQL, and Google App Engine.
+This four part article series introduces data markets and their features, shows you how to select a
+market and begin extracting data from it, explores how premium dataset purchases work in commercial
+markets, and then discusses the steps required to build a commercial data market with micropayments
+for subsections of a given dataset and a general-purpose data market REST API.  Examples included
+in the articles use REST+JSON, Python, YQL, and Google App Engine.
 
 For more information, please refer to the articles bundled together here:
 https://bit.ly/bundles/billday/1k
