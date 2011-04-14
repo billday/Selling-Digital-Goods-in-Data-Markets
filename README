@@ -1,17 +1,14 @@
 The Python script in this project can be used to access Twitter influence metrics from the Infochimps
 data market described in the PayPal X.com DevZone "Selling Digital Goods in Data Markets" article series.
 
-For more information, please refer to the articles.  The first installment, introducing data markets and
-some of the major innovators, is available at:
-http://bit.ly/eLy8Ob
+This four part article series introduces data markets and their features, shows you how to select a market
+and begin extracting data from it, explores how premium dataset purchases work in commercial markets, and
+then discusses the steps required to build a commercial data market with micropayments for subsections 
+of a given dataset and a general-purpose data market REST API.  Examples included in the articles use 
+REST+JSON, Python, YQL, and Google App Engine.
 
-The second article discussing how to find an appropriate dataset and access data in it, especially 
-focusing upon Infochimps' Twitter influence metrics API and accessing it using YQL, is at:
-https://bit.ly/esITZ5
-
-See also http://bit.ly/hxarz2 and http://bit.ly/gVAQGe for more on the influence metrics and YQL.
-
-I will update this README to link to the remaining articles as they are published.
+For more information, please refer to the articles bundled together here:
+https://bit.ly/bundles/billday/1k
 
 All source code is licensed under the Simplified BSD License:
 http://www.opensource.org/licenses/bsd-license.php
